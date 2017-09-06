@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Intents Handler.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Intents HandlerUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>SiriDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +23,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>DEC3C8EB1F5F29B000087BC7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEC3C9051F5F2A4B00087BC7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEC3C90E1F5F2A4B00087BC7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import Intents
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        INPreferences.requestSiriAuthorization { (status) in
+            
+        }
+        
+        INVocabulary.shared().setVocabularyStrings(["push up", "sit up", "pull up"], of: .paymentsOrganizationName)
     }
 
     override func didReceiveMemoryWarning() {
